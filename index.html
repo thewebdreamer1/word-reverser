@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Word Reverser</title>
+        <meta name="description" content="Reverse input on click">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    
+    <body>       
+        <div id="wrap">
+            <div id="top-content">
+                <p>Type any combination of numbers and words into the field below and it will be reversed when you click the Reverse button.</p>
+                <p>Make sure to keep your entry to less than 50 characters.</p>
+                <button onclick="reverseInput();">Reverse</button>
+            </div>
+            <div class="input-cont">
+                <input id="theinput" autocomplete="off" placeholder="Type something here..." maxlength="50">
+            </div>
+            <div class="input-cont">
+                <input id="theoutput" autocomplete="off" maxlength="50">
+            </div>
+            
+        </div>
+        
+        <script src="main.js"></script>
+    </body>
+</html>
